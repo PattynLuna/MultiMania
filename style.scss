@@ -12,19 +12,18 @@ $textdark: #000000;
         font-family: 'Montserrat Subrayada',
             sans-serif;
         font-size: 28px;
+        padding: 1rem 0;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
 .c-backgroundimg {
-    background-image: url(/assets/img/BackgroundImg.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(/assets/img/BackgroundImg-02.jpg);
 }
 
 // navbar bootstrap
@@ -84,15 +83,44 @@ $textdark: #000000;
 }
 
 .c-home {
-    margin-top: -50px;
+    margin-top: -60px;
+    margin-bottom: 3rem;
 
     &__text {
         padding-top: 2rem;
     }
 
-    &__img {
-        &-img {
+    &-img {
+        &__img {
             width: 100%;
         }
     }
+}
+
+.c-vr {
+    background-color: $secondary;
+    color: $textlight;
+
+    &-img {
+        &__img {
+            width: 100%;
+            padding: 3rem;
+        }
+    }
+
+    &-txt {
+        padding: 3rem 0;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__p {
+            padding: 0 1rem;
+        }
+    }
+}
+
+.c-spacer-vr {
+    margin-top: -85px;
 }

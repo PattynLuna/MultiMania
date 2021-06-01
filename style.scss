@@ -20,17 +20,36 @@ $textdark: #000000;
     }
 }
 
+.c-backgroundimg {
+    background-image: url(/assets/img/BackgroundImg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+// navbar bootstrap
+.navbar {
+    padding: 0;
+}
+
 .c-nav {
     background-color: $secondary;
-    display: flex;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 
     &__logo {
-        padding: 4px 4px 0 4px;
+        padding: 0px 25px;
         display: block;
         margin: 0;
+        width: 20%;
+
+        &-txt {
+            color: white;
+            font-weight: bold;
+            padding: 14px 4px 0 8px;
+            font-size: 10px;
+        }
     }
 
     &__img {
@@ -61,5 +80,11 @@ $textdark: #000000;
                 background-color: $hover;
             }
         }
+    }
+}
+
+.c-video {
+    iframe {
+        width: 100%;
     }
 }

@@ -7,18 +7,36 @@
   font-weight: 300;
 }
 
+.c-backgroundimg {
+  background-image: url(/assets/img/BackgroundImg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 0;
+}
+
 .c-nav {
   background-color: #383842;
-  display: flex;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
 }
 
 .c-nav__logo {
-  padding: 4px 4px 0 4px;
+  padding: 0px 25px;
   display: block;
   margin: 0;
+  width: 20%;
+}
+
+.c-nav__logo-txt {
+  color: white;
+  font-weight: bold;
+  padding: 14px 4px 0 8px;
+  font-size: 10px;
 }
 
 .c-nav__img {
@@ -49,4 +67,8 @@
 
 .c-nav__link--tickets:active {
   background-color: #114E5D;
+}
+
+.c-video iframe {
+  width: 100%;
 }

@@ -1,10 +1,12 @@
 * h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 28px;
 }
 
 * p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  font-size: 16px;
 }
 
 .c-backgroundimg {
@@ -22,7 +24,6 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
 }
 
 .c-nav__logo {
@@ -69,6 +70,14 @@
   background-color: #114E5D;
 }
 
-.c-video iframe {
+.c-home {
+  margin-top: -50px;
+}
+
+.c-home__text {
+  padding-top: 2rem;
+}
+
+.c-home__img-img {
   width: 100%;
 }

@@ -11,12 +11,13 @@ $textdark: #000000;
     h1 {
         font-family: 'Montserrat Subrayada',
             sans-serif;
+        font-size: 28px;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-
+        font-size: 16px;
     }
 }
 
@@ -36,7 +37,6 @@ $textdark: #000000;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
 
     &__logo {
         padding: 0px 25px;
@@ -83,8 +83,16 @@ $textdark: #000000;
     }
 }
 
-.c-video {
-    iframe {
-        width: 100%;
+.c-home {
+    margin-top: -50px;
+
+    &__text {
+        padding-top: 2rem;
+    }
+
+    &__img {
+        &-img {
+            width: 100%;
+        }
     }
 }

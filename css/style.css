@@ -1,0 +1,52 @@
+* h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+* p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.c-nav {
+  background-color: #383842;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c-nav__logo {
+  padding: 4px 4px 0 4px;
+  display: block;
+  margin: 0;
+}
+
+.c-nav__img {
+  width: 100%;
+}
+
+.c-nav__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.c-nav__link:hover {
+  color: #208CA6;
+}
+
+.c-nav__link--tickets {
+  background-color: #208CA6;
+  border-radius: 2rem;
+  margin-right: 3rem;
+}
+
+.c-nav__link--tickets:hover {
+  color: #FFFFFF !important;
+}
+
+.c-nav__link--tickets:active {
+  background-color: #114E5D;
+}

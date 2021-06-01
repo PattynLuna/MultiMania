@@ -1,0 +1,65 @@
+$primary: #f4efea;
+$secondary: #383842;
+$accent:#208CA6;
+$accentOpacity: rgba(32, 140, 166, 0.5);
+$hover:#114E5D;
+$disabled: #68B0C1;
+$textlight: #FFFFFF;
+$textdark: #000000;
+
+* {
+    h1 {
+        font-family: 'Montserrat Subrayada',
+            sans-serif;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+
+    }
+}
+
+.c-nav {
+    background-color: $secondary;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        padding: 4px 4px 0 4px;
+        display: block;
+        margin: 0;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $textlight;
+        font-weight: bold;
+        padding: 1rem;
+        font-size: 16px;
+
+        &:hover {
+            color: $accent
+        }
+
+        &--tickets {
+            background-color: $accent;
+            border-radius: 2rem;
+            margin-right: 3rem;
+
+            &:hover {
+                color: $textlight !important;
+            }
+
+            &:active {
+                background-color: $hover;
+            }
+        }
+    }
+}
